@@ -1,38 +1,243 @@
-.App {
-  text-align: center;
+* {
+        margin: 0;
+    padding: 0;
+   box-sizing: border-box;
+    }
+
+body
+{
+    font-family: sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Main
+{
+        width :100%;
+        height: 100vh;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        
+        
+}
+.search
+{
+    position: relative;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.inputbar
+{
+    width: 100%;
+    height: 45px;
+    color: rgba(0,0,0,.87);
+    border: 1px solid #dfe1e5;
+    font-size: 16px;
+    outline: none;
+    border-radius: 25px;
+    padding: 0 45px;
+    min-width: 450px;
+    
+
+    
+
+}
+.inputbar:hover
+{
+    box-shadow: 0 1px 6px 1px rgba(0,0,0,0.15);
+    border-color: rgba(223, 225, 229, 0);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+.Sicon
+{
+    position:absolute;
+    font-size: 16px;
+     top: 14px;
+     left: 18px;
+     color: #9aa0a6;
 }
 
-.App-link {
-  color: #61dafb;
+.Micon
+{
+    position:absolute;
+    font-size: 18px;
+     top: 15px;
+     right: 20px;
+     color: #4285f4;
+     cursor: pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Sicon
+{
+  border-color: #1a0dab;  
+}
+
+.sub-cointainer
+{
+    
+width: 584px;
+ margin: 130px;
+}
+
+.Main_logo
+{
+text-align: center;
+padding-bottom: 22px;
+}
+
+.Searchbtn
+{
+    margin-top: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.Sbtn
+{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 6px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+  
+
+}
+
+
+.Main-container
+{
+    width:100%;
+    margin: 30px auto;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #f2f2f2;
+    
+}
+
+.Sinput
+{
+
+    display: flex;
+    width: 100%;
+    align-items: center;
+   
+    
+}
+
+.Sform
+{
+
+    width: 100%;
+    height: 45px;
+    color: rgba(0,0,0,.87);
+    border: 1px solid #dfe1e5;
+    font-size: 16px;
+    outline: none;
+    border-radius: 25px;
+    padding: 0 45px;  
+    box-shadow: 0 1px 6px 1px rgba(0,0,0,0.15);
+    border-color: rgba(223, 225, 229, 0);
+    
+}
+
+.Spage_logo
+{
+    width: 92px;
+    height: 33px;
+    cursor: pointer;
+
+}
+
+.Spage_logo img
+{
+    margin-left: 20px;
+    width: 100%;
+    height: 100%;
+   
+}
+
+.Spage-input
+{
+    width: 650px;
+    padding-left: 35px;
+    margin-left: 27px;
+    
+}
+
+
+.ResultTab
+{
+  
+  margin-left: 155px;
+    width: 600px;
+    margin-top: 25px;
+    
+}
+
+.Link
+{
+    color: #3c4043;
+    text-decoration: none;
+    overflow: hidden;
+}
+.Title{
+    margin-top: 10px ;
+margin-bottom: 10px ;
+}
+.Title a
+{
+    font-size: 20px;
+    color: #1a0dab;
+    text-decoration: none;
+}
+
+.Description
+{
+    color: #3c4043 ;
+    font-size: 14px;
+}
+
+
+.NoResultTab
+{
+    margin-left: 155px;
+    width: 600px;
+    margin-top: 25px;
+    
+    font-style: normal;
+    font-size: medium;
+}
+ul
+{
+list-style-type: disc;
+margin-top: 20px;
+margin-left: 25px;
+}
+
+li{
+    display: list-item;
+}
+
+.S2
+{
+    
+    display: block;
+    margin-top: 20px;
+    font-style: normal;
+    font-size: medium;
+   
+}
+
+.Nmatch_word
+{
+    font-style: normal;
+    font-size: medium;
+    font-weight: bolder;
 }
