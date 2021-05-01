@@ -30,13 +30,6 @@ const data =
     url: "https://en.wikipedia.org/wiki/Nelson_Mandela",
     note: "Nelson Rolihlahla Mandela was a South African anti-apartheid revolutionary, political leader and philanthropist who served as President of South Africa from..."
 
-},
-
-{
-    Sword : "Gaali Vaaluga Cover Song",
-    url: "https://www.youtube.com/watch?v=B1QfkmuV-fo",
-    note: "Gaali Vaaluga Cover Song by vicky n vaishnavi|| pspk25 || Agnyaathavaasi ||"
-
 }
 
 ];
